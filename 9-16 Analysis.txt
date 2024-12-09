@@ -1,0 +1,20 @@
+Analyzing DEWP with month
+When looking at the relationship between DEWP with month, we can see that the R-squared value is small with a value of 0.0816. This means that the month explains little, about 8.16%, of the variation shown within the model. We can also see when looking at the plot for DEWP vs month that the least squares line has a positive trend. 
+
+Analyzing RAIN with month
+When looking at the relationship between rain and the month, we can see that its R-squared is almost nonexistent. It sits at an astoundingly small value of 0.0003 meaning that, 0.03%, or almost nothing from the month explains the variation in the model. The parameter estimates are also extremely low meaning that when one variable changes, the other variable changes very slightly. Due to this I believe there is enough evidence to suggest that the rain and month have a relationship so small that other factors outside the model must be affecting the model. 
+
+Analyzing WSPM with month
+When looking at the relationship between WSPM and month we can see that the R-square value has a small value of 0.0179 meaning that around 1.79% of the variation of the model is being explained by the month. The small F-value of <0.0001 shows that the month is a significant predictor of WSPM.
+
+Analyzing TEMP with wd
+When looking at the relationship between TEMP and wd (wind direction) we can see that the R-squared value is not particularly large. About 2.2% of the variation of the model is being explained by the month. The fit plot for temp also shows that there is a positive relationship between temperature and wind direction. 
+
+Analyzing PM25 with wd
+When looking at the relationship between PM25 and wd we can see that the small F-value leads us to believe that their relationship is highly significant. The small R-squared value of 0.0193 also leads us to believe that a small amount of the model is being explained by the month, approximately 1.9%. The plot produced for PM25 and wd also shows us that they have a slightly negative relationship.
+
+Analyzing PM10 with wd
+When looking at the relationship between PM10 and wd we can see that its F-value is high with a significant p-value. It also is shown to have a small R-squared of 0.0081 which means the month explains very little of the model when paired with this variable. From the evidence shown through the plot for PM10, they have a very small, but negative, relationship.
+
+Analyzing SO2 with wd
+When looking at the relationship between SO2 and wd we can see that the F-value is extremely large. At a value of 14189.8, it returns a p-value of <0.0001 which means month is a significant predictor of SO2. The R-squared value is 0.0231 which means that in this model, only 2.31% of the model is explained by the month when compared with SO2. From the plot of month vs SO2 we can se that there is a positive relationship between the two.
